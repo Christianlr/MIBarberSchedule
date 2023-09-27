@@ -5,5 +5,6 @@ Soy barbero y a lo largo de la semana nos resulta complicado a mi y a mis compa�
 
 ## Documentación de interés
 
-[Historias de usuario](docs/historias_usuario.md)
-[Milestones](docs/milestones.md)
+* [Historias de usuario](docs/historias_usuario.md)
+
+* [Milestones](docs/milestones.md)
