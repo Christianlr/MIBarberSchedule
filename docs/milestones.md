@@ -2,7 +2,7 @@
 
 ## [M0] Modelo del problema
 
- * Objetivo: Estudiar las distintas HU's para extraer los datos necesarios del problema y proceder a su desarrollo.
+ * Objetivo: Estudiar las distintas HU's para extraer los elementos del dominio del problema y proceder a su desarrollo.
  * Entregable: Objetivo: Estudiar las distintas HU's para extraer los datos necesarios del problema y proceder a su desarrollo.
  * Viabilidad: Será viable según lo confirme el product manager.
 
