@@ -9,9 +9,9 @@
 ## [M1] Desarrollo del procesamiento que asigna de tareas básicas a los barberos en función del tiempo libre y prioridad
 
  * Objetivo: Creación de un sistema que asigne tareas a partir del tiempo libre de los barberos y prioridad de tareas a lo largo de la semana.
- * Entregable: Prototipo funcional de la aplicación que en base de la disponibilidad de cada uno, se le asignen tareas automáticamente a los barberos.
- * Entregable: Prototipo funcional de la aplicación que en base de la disponibilidad de cada uno, se le asignen tareas automáticamente a los barberos.
-
+ * Entregable: Prototipo funcional de la aplicación que en base de la disponibilidad de cada uno, se le asignen tareas automáticamente a los barberos en función de su prioridad.
+ * Viabilidad: Presentará viabilidad cuando supere los test correspondientes.
+ 
 ## [M2] Implementación del reparto del bote en función de las tareas realizadas por cada barbero
 
  * Objetivo: Establecer en el sistema un seguimiento en las tareas realizadas para el reparto del bote. 
