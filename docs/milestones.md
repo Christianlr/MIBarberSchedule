@@ -8,7 +8,7 @@
 
 ## [M1] Desarrollo del procesamiento que asigna de tareas básicas a los barberos en función del tiempo libre y prioridad
 
- * Objetivo: Creación de un sistema que asigne tareas a partir del tiempo libre de los barberos y prioridad de tareas a lo largo de la semana.
+ * Objetivo: Creación de un sistema que asigne tareas a partir del tiempo libre de los barberos y prioridad de tareas en función de si han sido realizadas (siendo de más prioridad aquellas que no han sido realizadas previamente) a lo largo de la semana.
  * Entregable: Prototipo funcional de la aplicación que en base de la disponibilidad de cada uno, se le asignen tareas automáticamente a los barberos en función de su prioridad.
  * Viabilidad: Presentará viabilidad cuando supere los test correspondientes.
  
