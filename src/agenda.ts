@@ -13,4 +13,15 @@ type IntervaloTiempoLibreTrabajador ={
     trabajador: string
 }
 
+class Agenda{
+    private _tiempoLibreTrabajadores:Array<IntervaloTiempoLibreTrabajador>;
+    private _tareas:Array<Tarea>;
+    private _tareasAsignadas:Map<Tarea, IntervaloTiempoLibreTrabajador>;
 
+    constructor(){
+        this._tiempoLibreTrabajadores = [];
+        this._tareas = [];
+        this._tareasAsignadas = new Map();
+    }
+    
+}
