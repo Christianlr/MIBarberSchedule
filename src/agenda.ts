@@ -5,6 +5,7 @@
  * objetos valores de la aplicación
  */
 
+import { Tarea } from "./tarea"
 
 type IntervaloTiempoLibreTrabajador ={
     inicio: Date,
