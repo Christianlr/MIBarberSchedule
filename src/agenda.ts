@@ -12,3 +12,4 @@ type IntervaloTiempoLibreTrabajador ={
     trabajador: string
 }
 
+
