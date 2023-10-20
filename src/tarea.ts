@@ -12,14 +12,14 @@ enum Prioridad{
 
 export class Tarea{
     private _titulo: string;
-    private _tiempoEstimado: number;
+    private _tiempoEstimadoMinutos: number;
     private _fechaCreacion: Date;
     private _prioridad: Prioridad
     
 
-    constructor(titulo:string, tiempoEstimado:number, fechaCreacion:Date, prioridad:Prioridad){
+    constructor(titulo:string, tiempoEstimadoMinutos:number, fechaCreacion:Date, prioridad:Prioridad){
         this._titulo = titulo;
-        this._tiempoEstimado = tiempoEstimado;
+        this._tiempoEstimadoMinutos = tiempoEstimadoMinutos;
         this._fechaCreacion = fechaCreacion;
         this._prioridad = prioridad;
     }

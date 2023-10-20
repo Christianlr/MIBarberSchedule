@@ -9,7 +9,7 @@ import { Tarea } from "./tarea"
 
 type IntervaloTiempoLibreTrabajador ={
     inicio: Date,
-    duracionMinutos: number
+    duracionMinutos: number 
     trabajador: string
 }
 
