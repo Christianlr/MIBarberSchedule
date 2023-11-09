@@ -1,2 +1,5 @@
 lenguaje: TypeScript
 entidad: src/agenda.ts
+automatizar:
+  fichero: package.json
+  orden: pnpm run check
