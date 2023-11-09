@@ -8,3 +8,9 @@ Soy barbero y a lo largo de la semana nos resulta complicado a mi y a mis compa√
 * [Historias de usuario](docs/historias_usuario.md)
 
 * [Milestones](docs/milestones.md)
+
+* [Runtime](docs/runtime.md)
+
+* [Gestor de dependencias](docs/gestor_dependencias.md)
+
+* [Gestor de tareas](docs/gestor_tareas.md)
