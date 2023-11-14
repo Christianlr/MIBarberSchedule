@@ -47,6 +47,6 @@ Tras el estudio realizado de las principales alternativas que se presentan como 
 
 Se presentan algunos comportamientos que tienen los gestores de dependencias con respecto al rendimiento y eficiencia en disco:
 
-![](img/rendimientoGestoresDependencias.png)
-![](img/rendimientoGestoresDependencias2.png)
+![](../img/rendimientoGestoresDependencias.png)
+![](../img/rendimientoGestoresDependencias2.png)
 

@@ -49,5 +49,5 @@ Tras estudiar las distintas características de los principales runtimes que hay
 
 Se habla de rendimiento pero no se tiene un número, algo contable. Por lo tanto, quiero añadir una medición de la media de peticiones que pueden realizarse con cada uno de los runtimes mencionados:
 
-![](img/RendimientoRuntime.png)
+![](../img/RendimientoRuntime.png)
 
