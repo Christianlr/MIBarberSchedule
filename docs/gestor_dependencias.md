@@ -42,3 +42,11 @@ Resulta ser el más ligero, rápido y seguro de los 3. Es bastante similar a Yar
 ## Elección
 
 Tras el estudio realizado de las principales alternativas que se presentan como gestores de dependencias, elijo PNPM. Basicamente, me parece una opción más que correcta para el desarrollo de este proyecto por su velocidad en el papel y seguridad. Es ligero. Además, se tienen las mejores características de NPM y Yarn pero quitando las vulnerabilidades y obteniendo lo mejor de estos. 
+
+## Algunas curiosidades...
+
+Se presentan algunos comportamientos que tienen los gestores de dependencias con respecto al rendimiento y eficiencia en disco:
+
+![](img/rendimientoGestoresDependencias.png)
+![](img/rendimientoGestoresDependencias2.png)
+
