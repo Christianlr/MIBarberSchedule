@@ -18,9 +18,9 @@ En cuanto a la sintaxis, puede ser algo más tediosa para make y mas sencillo en
 
 Dejo por aquí un [enlace de interés de Just](https://github.com/casey/just) que es menos conocido, por si gusta al lector echar un ojo. Incluso hay un [apartado de alternativas](https://github.com/casey/just#alternatives-and-prior-art) similares a este donde encontramos a make como primera alternativa! 
 
-## NPM Scripts
+## PNPM Scripts
 
-Una de las grandes ventajas que tenemos al usar NPM Scripts es la automatización de tareas en el mismo fichero package.json. En relativamente sencillo de hacer y no sería necesario instalar ninguna herramienta externa. Si se da alguna complicación en específico, podemos derivar a otro archivo. 
+Una de las grandes ventajas que tenemos al usar PNPM Scripts es la automatización de tareas en el mismo fichero package.json. En relativamente sencillo de hacer y no sería necesario instalar ninguna herramienta externa. Si se da alguna complicación en específico, podemos derivar a otro archivo. 
 
 Por otra parte, dependiendo del archivo que se esté creando, puede terminar siendo engorroso.
 
@@ -35,7 +35,7 @@ Por otra parte, Gulp presenta un código más legible y conciso a través de tub
 
 ## Elección
 
-Podria decantarme por cualquiera de ambas, de verdad. Pero si se analiza un poco más la situación podemos llegar a la conclusión de que realmente ya disponemos de la solución. Voy a usar NPM Scripts, ya que principalmente no se necesita nada externo y se cuenta con ello, reduciendo así la deuda técnica. Por otro lado, no se debería tener ningún tipo de problema con PNPM, ya que partimos de un `package.json` similar al de NPM.
+Podria decantarme por cualquiera de ambas, de verdad. Pero si se analiza un poco más la situación podemos llegar a la conclusión de que realmente ya disponemos de la solución. Voy a usar PNPM Scripts, ya que principalmente no se necesita nada externo y se cuenta con ello, reduciendo así la deuda técnica. 
 
 
 
