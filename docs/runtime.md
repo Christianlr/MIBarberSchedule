@@ -33,7 +33,7 @@ Por último, decir que Deno se considera un toolchain, es decir, un entorno comp
 
 ## Bun
 
-Bun se trata de un all-in-one toolkit super rápido siendo este de los 3 destacados el más rápido. Solventa principalmente la complejidad que ha tenido node a lo largo del tiempo de desarrollo. Al igual que Deno y Node.js, se tiene buen rendimiento y quizás estabilidad.
+Bun se trata de un all-in-one toolkit super rápido siendo este de los 3 destacados el más rápido. Al igual que Deno y Node.js, se tiene buen rendimiento (Ver apartado [curiosidades](https://github.com/Christianlr/MIBarberSchedule/blob/Objetivo-3/docs/runtime.md#algunas-curiosidades) ).
 
 En cuanto a seguridad, es realmente bueno ya que puede restringir accesos a determinados sitios si así se desea.
 El problema viene en la documentación que realmente no tiene una gran comunidad y está empezando.
