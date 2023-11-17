@@ -10,7 +10,7 @@ En cuanto a los criterios de la elección:
 -   Seguridad : Buscamos que se solventen problemas de dependencias de paquetes o trabajar tediosamente a más de un nivel en cuanto a dependencias. 
 -   Comportamiento : Que presente unas prestaciones más que aceptables en cuanto a eficiencia y complejidad mínima.
 
-## NPM
+## NPM (Node Package Manager)
 
 Se trata de un gestor de dependencias que viene por defecto en node. Es el más usado pero presenta las siguientes características:
 
@@ -19,7 +19,6 @@ Se trata de un gestor de dependencias que viene por defecto en node. Es el más 
 -   Posibilidad de crear dependencias duplicadas que ocupan espacio y crean conflictos.
 -   Presenta una sintaxis sencilla por lo general.
 
-
 ## Yarn
 
 Trata principalmente de mejorar aquellos problemas de velocidad, seguridad y fiabilidad de NPM. 
@@ -27,9 +26,8 @@ Trata principalmente de mejorar aquellos problemas de velocidad, seguridad y fia
 -   Utiliza una estructura de dependencia plana para evitar duplicados de paquetes. Esto mejora la velocidad como se ha comentado porque no se necesita buscar entre directorios las distintas dependencias. Es decir, se trabaja a un mismo nivel.
 -   El trabajar a un único nivel, evita conflictos de dependencias.
 -   Instalación de paquetes desde caché local(sin conexión).
--   CLI puede llegar a ser complejo.
 
-## PNPM
+## PNPM (Parallel Node Package Manager)
 
 Resulta ser el más ligero, rápido y seguro de los 3. Es bastante similar a Yarn y NPM en cuanto a la sintaxis y utiliza igualmente el archivo package.json.
 
