@@ -9,7 +9,7 @@ La clase principal es `agenda.ts` la cual va a contener la lógica de negocio qu
 
 Para poder comprobar la sintaxis del código, hacemos uso de la siguiente orden:
 
-```ruby
+```shell
    pnpm run check
 ```
 
