@@ -1,0 +1,21 @@
+{"intervalos": [
+    {
+      "trabajador": "Raúl",
+      "intervalosLibres": [
+        { "inicio": "2023-11-27T11:00:00", "duracionEnMinutos": 70 }
+      ]
+    },
+    {
+      "trabajador": "Antonio",
+      "intervalosLibres": [
+        { "inicio": "2023-11-28T10:00:00", "duracionEnMinutos": 60 }
+      ]
+    },
+    {
+      "trabajador": "José",
+      "intervalosLibres": [
+        { "inicio": "2023-11-29T10:00:00", "duracionEnMinutos": 120 }
+      ]
+    }
+  ]
+}
