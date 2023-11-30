@@ -3,3 +3,4 @@ entidad: src/agenda.ts
 automatizar:
   fichero: package.json
   orden: pnpm run
+test: tests/agenda_test.ts
