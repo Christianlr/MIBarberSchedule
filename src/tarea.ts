@@ -35,5 +35,7 @@ export class Tarea{
     get prioridad(): number {
         return this._prioridad;
     }
-
+    setPrioridad(numero: number) {
+        this._prioridad -= numero;    
+    }
 }
