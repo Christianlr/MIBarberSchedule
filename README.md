@@ -18,7 +18,7 @@ Para poder comprobar la sintaxis del código, hacemos uso de la siguiente orden:
 La ejecución de los test para comprobar que la lógica de negocio cubre las necesidades mínimas establecidas según las historias de usuario:
 
 ```shell
-   pnpm test
+   pnpm run test
 ```
 
 ## Documentación de interés
