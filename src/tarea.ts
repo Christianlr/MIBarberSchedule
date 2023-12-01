@@ -2,26 +2,40 @@
  * Clase Tarea
  * Objeto-Valor
  * Necesaria para almacenar todos los atributos de una tarea
- * 
  */
-enum Prioridad{
-    Alta = 1,
-    Media,
-    Baja
-}
+
 
 export class Tarea{
     private _titulo: string;
     private _tiempoEstimadoEnMinutos: number; 
+    private _prioridad: number;
     private _fechaCreacion: Date;
-    private _prioridad: Prioridad
-    
 
-    constructor(titulo:string, _tiempoEstimadoEnMinutos:number, fechaCreacion:Date, prioridad:Prioridad){
+
+    constructor(titulo:string, _tiempoEstimadoEnMinutos:number, prioridad:number, fechaCreacion:Date){
         this._titulo = titulo;
         this._tiempoEstimadoEnMinutos = _tiempoEstimadoEnMinutos;
         this._fechaCreacion = fechaCreacion;
         this._prioridad = prioridad;
+        this._fechaCreacion = fechaCreacion;
     }
     
+    get titulo(): string {
+        return this._titulo;
+    }
+
+    get tiempoEstimadoEnMinutos(): number {
+        return this._tiempoEstimadoEnMinutos;
+    }
+
+    get fechaCreacion(): Date {
+        return this._fechaCreacion;
+    }
+
+    get prioridad(): number {
+        return this._prioridad;
+    }
+    setPrioridad(numero: number) {
+        this._prioridad -= numero;    
+    }
 }

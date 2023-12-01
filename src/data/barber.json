@@ -1,0 +1,51 @@
+{
+  "barberos": [
+    {"nombre": "Raúl"},
+    {"nombre": "Antonio"},
+    {"nombre": "José"}
+  ],
+  "tareas": [
+    {
+      "titulo": "Reponer stock de productos",
+      "tiempoEstimadoEnMinutos": 30,
+      "prioridad": 2,
+      "fechaCreacion": "2023-11-22T11:00:00"
+    },
+    {
+      "titulo": "Ordenar productos almacén",
+      "tiempoEstimadoEnMinutos": 40,
+      "prioridad": 3,
+      "fechaCreacion": "2023-11-21T11:00:00"
+    },
+    {
+      "titulo": "Marketing y promoción",
+      "tiempoEstimadoEnMinutos": 5,
+      "prioridad": 2,
+      "fechaCreacion": "2023-11-22T10:00:00"
+    },
+    {
+      "titulo": "Gestión de residuos",
+      "tiempoEstimadoEnMinutos": 30,
+      "prioridad": 1,
+      "fechaCreacion": "2023-11-24T11:00:00"
+    },
+    {
+      "titulo": "Formación del barbero",
+      "tiempoEstimadoEnMinutos": 120,
+      "prioridad": 3,
+      "fechaCreacion": "2023-11-25T09:0:00"
+    },
+    {
+      "titulo": "Limpieza y mantenimiento",
+      "tiempoEstimadoEnMinutos": 20,
+      "prioridad": 1,
+      "fechaCreacion": "2023-11-19T10:00:00"
+    },
+    {
+      "titulo": "Gestión financiera",
+      "tiempoEstimadoEnMinutos": 10,
+      "prioridad": 1,
+      "fechaCreacion": "2023-11-20T10:00:00"
+    }
+  ]
+}
