@@ -1,18 +1,8 @@
 import { Agenda } from '../src/agenda';
 import { Tarea } from '../src/tarea';
+import { IntervaloLibre, IntervaloTiempoLibreTrabajador} from '../src/agenda';
 import datosBarberia from "../src/data/barber.json";
 import datosTiemposLibres from "../src/data/tiemposLIbres.json";
-
-
-type IntervaloLibre = {
-  inicio: Date,
-  duracionEnMinutos: number
-};
-
-type IntervaloTiempoLibreTrabajador = {
-  trabajador: string,
-  intervalosLibres: Array<IntervaloLibre>
-};
 
 
 describe('Test Agenda', () => {

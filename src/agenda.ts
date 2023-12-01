@@ -4,17 +4,14 @@
  * Implementación de la clase Agenda que unirá los diferentes
  * objetos valores de la aplicación
  */
-
 import { Tarea } from "./tarea"
-import datosBarberia from "../src/data/barber.json";
-import datosTiemposLibres from "../src/data/tiemposLIbres.json";
 
-type IntervaloLibre = {
+export type IntervaloLibre = {
     inicio: Date,
     duracionEnMinutos: number
 };
 
-type IntervaloTiempoLibreTrabajador = {
+export type IntervaloTiempoLibreTrabajador = {
     trabajador: string,
     intervalosLibres: Array<IntervaloLibre>
 };
