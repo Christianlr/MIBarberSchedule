@@ -34,9 +34,7 @@ export class Agenda {
     asignacionTareas() {
 
         this.ajusteDePrioridad();
-        
-        this._tareas.sort((a, b) => a.prioridad - b.prioridad);
-        this._tareas.sort((a, b)=> a.fechaCreacion.getTime() - b.fechaCreacion.getTime());
+        this.ordenarPorPrioridad();
         this._tareas.forEach(tarea => {
             if (!this._tareasAsignadas.has(tarea)) {
                 this._tiempoLibreTrabajadores.forEach(barbero => {
@@ -68,6 +66,10 @@ export class Agenda {
         });
     }
 
+    private ordenarPorPrioridad(){
+        this._tareas.sort((a, b) => a.prioridad - b.prioridad);
+    }
+    
     ajusteDePrioridad() {
         const hoy = new Date();
         this._tareas.forEach(tarea => {
