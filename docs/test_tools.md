@@ -55,7 +55,7 @@ Realmente, todas las herramientas mencionadas ya cuentan con su propia herramien
 
 ## Herramientas seleccionadas
 
-Basandome en las fuentes consultadas, características y criterios de elección, considero que cubre bastante bien la necesidad que se presenta Jest como marco de pruebas, así como sus propias librerías de aserciones y herramienta CLI. No sería necesario por lo tanto añadir nuevas herramientas, manteniendo la simplicidad en el desarrollo del proyecto y disminuyendo todo lo posible la deuda técnica.
+Basandome en las fuentes consultadas, características y criterios de elección, considero que cubre bastante bien la necesidad que presenta Jest como marco de pruebas, así como sus propias librerías de aserciones y herramienta CLI. No sería necesario por lo tanto añadir nuevas herramientas, manteniendo la simplicidad en el desarrollo del proyecto y disminuyendo todo lo posible la deuda técnica.
 
 En cuanto a las necesidades del proyecto, Jest en una opción más que correcta. Cualquiera de las herramientas mencionadas puede servir para este proyecto. No necesitamos algo complejo como, por ejemplo, para tener que añadir herramientas adicionales (como es el caso de Karma con Jasmine). Otro de los motivos de su elección es que, pese a los altos scores que se presentan en Snyk, he encontrado una información más transparence en Jest, teniendo más claro los conceptos y características de la herramienta que pretendo usar.
 
