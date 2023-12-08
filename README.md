@@ -21,6 +21,26 @@ La ejecución de los test para comprobar que la lógica de negocio cubre las nec
    pnpm run test
 ```
 
+## Docker
+
+### Construcción del contenedor
+
+La siguiente orden construye el contenedor con la imagen declarada en el Dockerfile
+
+```shell
+   docker build -t christianlr/mibarberschedule .
+```
+
+### Ejecutar el contenedor
+
+Para poder ejecutar el contenedor correctamente: 
+
+```shell
+   docker run -tv `pwd`:/app/test christianlr/mibarberschedule
+```
+
+La imagen puede se puede encontrar [aquí](https://hub.docker.com/repository/docker/christianlr/mibarberschedule/general).
+
 ## Documentación de interés
 
 * [Historias de usuario](docs/historias_usuario.md)
@@ -32,3 +52,7 @@ La ejecución de los test para comprobar que la lógica de negocio cubre las nec
 * [Gestor de dependencias](docs/gestor_dependencias.md)
 
 * [Gestor de tareas](docs/gestor_tareas.md)
+
+* [Herramientas para los test](docs/test_tools.md)
+
+* [Elección de la imagen](docs/eleccion_imagen_base.md)
