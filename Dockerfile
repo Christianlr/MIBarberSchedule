@@ -1,9 +1,9 @@
 FROM node:bookworm-slim AS base
 
 LABEL maintainer="chrlr@correo.ugr.es" \
-      version="5.0.2"
+      version="5.0.3"
 
-RUN mkdir /.pnpm && chmod 700 /.pnpm
+RUN mkdir /.pnpm && chmod 777 /.pnpm
 
 RUN mkdir -p /app/test && chown -R node:node /app
 
@@ -13,13 +13,14 @@ RUN npm install -g pnpm@latest
 
 USER node
 
-WORKDIR /app
+WORKDIR /app/
 
-COPY package.json pnpm-lock.yaml ./
+COPY package.json pnpm-lock.yaml  ./
 
-FROM base AS prod-deps
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
+RUN  pnpm install ci
 
-WORKDIR /app/test
+ENV PATH $PATH:/app/node_modules/.bin
 
-CMD [ "pnpm", "run", "test" ]
+WORKDIR /app/test/
+
+ENTRYPOINT [ "pnpm", "run", "test" ]
