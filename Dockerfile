@@ -3,7 +3,7 @@ FROM node:bookworm-slim AS base
 LABEL maintainer="chrlr@correo.ugr.es" \
       version="5.0.3"
 
-RUN mkdir /.pnpm && chmod 777 /.pnpm
+RUN mkdir /.pnpm && chmod 700 /.pnpm
 
 RUN mkdir -p /app/test && chown -R node:node /app
 
