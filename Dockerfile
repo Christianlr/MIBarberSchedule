@@ -1,15 +1,15 @@
-FROM node:bookworm-slim AS base
+FROM bitnami/node:20.10.0
 
 LABEL maintainer="chrlr@correo.ugr.es" \
       version="5.0.3"
 
-RUN mkdir /.pnpm && chmod 700 /.pnpm
+RUN useradd -ms /bin/bash node
 
-RUN mkdir -p /app/test && chown -R node:node /app
+RUN chown -R node:node /app
 
-USER root
-
-RUN npm install -g pnpm@latest
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN corepack enable
 
 USER node
 
@@ -17,7 +17,7 @@ WORKDIR /app/
 
 COPY package.json pnpm-lock.yaml  ./
 
-RUN  pnpm install ci
+RUN  pnpm install --frozen-lockfile
 
 ENV PATH $PATH:/app/node_modules/.bin
 
