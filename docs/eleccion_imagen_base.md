@@ -25,10 +25,12 @@ Pero, aun hay más problemas con estas versiones. Siguen siendo igual de pesadas
 
 -  **node:alpine***: Se trata de la imágen recomendada para este tipo de proyecto. Presenta un tamaño de imagen muy pequeño. Aun siendo una de las imágenes recomendadas, sufre vulnerabilidades críticas. 
 
-- Otras posibilidades consideradas: **Debian**, **Fedora** o incluso **CentOS**. Podríamos trabajar con node sin problemas. Pero antes de eso, deberíamos de obtener las herramientas necesarias. Entonces, aunque algunas versiones de estas imágenes son bastante ligeras y casi libres de vulnerabilidades, se tendría que instalar node. Cosa que con las imágenes oficiales no haría falta.
- 
+- **cimg/node**: Imágen que se centra en la integración continua, cosa que es interesante para objetivos posteriores. Incluye node con su administrador de paquetes npm y además tiene yarn. Su última actualización fue realizada hace 10 días, por lo que es una imagen mantenida y trabajada.
+
+- **bitnami/node**: Contiene node junto con algunas herramientas más que quizás no van a ser útiles. Sin embargo, se trata de una imagen que está bastante bien mantenida y posee lo necesario para nuestro proyecto. La última actualización se realizó hace 8 días. Las imágenes Bitnami están basadas en minideb. Se trata de imágenes minimalistas basadas en Debian que son bastante pequeñas.
+
 
 ## Elección
 
-Teniendo en cuenta los criterios mencionados, las características de las distintas posibles imágenes y las necesidades del proyecto, mi elección se basa en usar **node:bookworm-slim**. Esto se debe a que la mayoria de las fuentes consultadas, así como Snyk Advisor, colocan a la versión bookworm como una de las más estables y actuales. Además, la convinación con slim, forma una imágen completa en cuando a necesidades y vulnerabilidades mínimas.
+Teniendo en cuenta los criterios mencionados, las características de las distintas posibles imágenes y las necesidades del proyecto, mi elección se basa en usar **bitnami/node** (en concreto usaremos la versión 20.10.0). Tal y como se habló en clase, muchas combinaciones ya elegidas se componen de algunas de las imagenes que se comentan al principio. Sin embargo, imagenes como la ce cimg/node y bitnami/node han resultado ser dos opciones bastante interesantes y que desconocía, destancando cimg por su integración continua y bitnami por ser bastante buena desarrollando imagenes para contenedores. Cualquiera de las dos son válidas, pero la elección final realizada se debe en parte a que la imagen de bitnami/node es más pequeña que el de cimg/node, cumpliendo así los criterios impuestos.
 
