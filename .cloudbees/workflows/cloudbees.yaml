@@ -1,0 +1,30 @@
+apiVersion: automation.cloudbees.io/v1alpha1
+kind: workflow
+name: cloudbees
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+ build:
+    runs-on: docker://ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.9.0
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 8.13.1 
+
+    - name: Run tests
+      uses: docker://ubuntu-latest
+      run: pnpm run test
