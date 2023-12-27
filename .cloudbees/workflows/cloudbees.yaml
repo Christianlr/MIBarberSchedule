@@ -10,6 +10,9 @@ on:
 jobs:
  ci-job: 
     steps:
+    - uses: docker://ubuntu-latest
+      run: |
+        git config --global --add safe.directory /cloudbees/workspace
     - name: Checkout
       uses: actions/checkout@v3
 
