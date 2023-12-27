@@ -1,3 +1,8 @@
+
+apiVersion: automation.cloudbees.io/v1
+kind: workflow
+name: My automation
+
 on:
   push:
     branches:
