@@ -1,4 +1,11 @@
 version: 1.0.{build}
+image: Visual Studio 2019
 
-build:
-  verbosity: minimal
+install:
+  - docker version
+
+build_script:
+  - docker build -t christianlr/mibarberschedule .
+
+test_script:
+  - docker run christianlr/mibarberschedule
