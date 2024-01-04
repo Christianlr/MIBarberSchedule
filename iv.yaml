@@ -4,3 +4,6 @@ automatizar:
   fichero: package.json
   orden: pnpm run
 test: tests/agenda_test.ts
+CI:
+  - .github/workflows/ci_test.yml
+  - appveyor.yml
