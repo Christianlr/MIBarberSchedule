@@ -56,3 +56,5 @@ La imagen puede se puede encontrar [aquí](https://hub.docker.com/repository/doc
 * [Herramientas para los test](docs/test_tools.md)
 
 * [Elección de la imagen](docs/eleccion_imagen_base.md)
+
+* [Elección de las herramientas CI](docs/eleccion_herramienta_ci.md)
