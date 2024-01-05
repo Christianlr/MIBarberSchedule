@@ -1,0 +1,11 @@
+version: 1.0.{build}
+image: Ubuntu
+
+install:
+  - docker version
+
+build_script:
+  - docker build -t christianlr/mibarberschedule .
+
+test_script:
+  - docker run -tv `pwd`:/app/test christianlr/mibarberschedule
